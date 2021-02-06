@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1612410260849,
-  "repoUrl": "https://github.com/OpenMined/PySyft",
+  "lastUpdate": 1612648160714,
+  "repoUrl": "https://github.com/aeroaks/PySyft",
   "entries": {
     "Pytest-benchmarks": [
       {
@@ -935,6 +935,35 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000006913855794565416",
             "extra": "mean: 617.5104422780059 usec\nrounds: 667"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "akshay.verma@asml.com",
+            "name": "akshay.verma"
+          },
+          "committer": {
+            "email": "akshay.verma@asml.com",
+            "name": "akshay.verma"
+          },
+          "distinct": true,
+          "id": "bcdd566981e6a92cf139218dde164125718c0a3e",
+          "message": "added windows script step in dependency installation",
+          "timestamp": "2021-02-06T22:45:36+01:00",
+          "tree_id": "147d8f9889aa16c2453be2c21842699b4917bb4c",
+          "url": "https://github.com/aeroaks/PySyft/commit/bcdd566981e6a92cf139218dde164125718c0a3e"
+        },
+        "date": 1612648158963,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/benchmarks/pytest_benchmarks/bench_test.py::test_string_serde",
+            "value": 1206.8308774384916,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0004188082537833158",
+            "extra": "mean: 828.6165184325646 usec\nrounds: 434"
           }
         ]
       }
