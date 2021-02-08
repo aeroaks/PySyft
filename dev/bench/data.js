@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1612648160714,
+  "lastUpdate": 1612762295131,
   "repoUrl": "https://github.com/aeroaks/PySyft",
   "entries": {
     "Pytest-benchmarks": [
@@ -964,6 +964,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0004188082537833158",
             "extra": "mean: 828.6165184325646 usec\nrounds: 434"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "me@madhavajay.com",
+            "name": "Madhava Jay",
+            "username": "madhavajay"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "88220c38faf3cd72ddc63c73f3c0533695df53c9",
+          "message": "Merge branch 'dev' into dev",
+          "timestamp": "2021-02-07T21:28:25-08:00",
+          "tree_id": "b7a4172b35b39e61437ea031e335f6992dc8a2c0",
+          "url": "https://github.com/aeroaks/PySyft/commit/88220c38faf3cd72ddc63c73f3c0533695df53c9"
+        },
+        "date": 1612762293373,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/benchmarks/pytest_benchmarks/bench_test.py::test_string_serde",
+            "value": 1106.6926760965055,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009925082945940737",
+            "extra": "mean: 903.5932211344989 usec\nrounds: 511"
           }
         ]
       }
